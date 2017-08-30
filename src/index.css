@@ -1,0 +1,80 @@
+.panel {
+    width: 100%;
+}
+
+.panel input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+#blockDetectorPanel.panel {
+    opacity: 0.4;
+}
+
+.soonBadge {
+    margin-top: -40px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.alert.passive {
+    display: none;
+}
+
+.left-panel {
+    padding-top: 90px;
+    text-align: center;
+    background: #eee;
+    height: 100%;
+    position: fixed;
+}
+
+.content-panel {
+    padding: 50px 80px;
+}
+
+.auto-redirect-panel {
+    padding: 20px 50px;
+}
+
+.auto-redirect-panel .list-group li.list-group-item {
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.auto-redirect-panel .list-group {
+    width: 100%;
+}
+
+.auto-redirect-panel form {
+    width: 100%;
+}
+
+.auto-redirect-panel.passive {
+    display: none;
+}
+
+.content-panel .input-group p {
+    text-indent: 20px;
+    margin: 0;
+    margin-top: 2px;
+}
+
+.descriptionButton {
+    margin-top: -27px;
+    z-index: 9999;
+    position: relative;
+}
+
+.blocked-website-radar-panel {
+    padding: 20px 50px;
+}
+
+.blocked-website-radar-panel.passive {
+    display: none;
+}
+
+.open-source-desc {
+    line-height: 16px;
+    font-size: 12px;
+    opacity: .6;
+}
