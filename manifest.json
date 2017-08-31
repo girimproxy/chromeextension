@@ -1,7 +1,7 @@
 {
-  "name": "Gir.im",
+  "name": "Gir.im Proxy",
   "short_name": "Girim",
-  "description": "Gir.im proxy",
+  "description": "Gir.im proxy helps you enter blocked websited by simply adding it before the web address.",
   "version": "0.0.1",
   "manifest_version": 2,
   "browser_action": {
