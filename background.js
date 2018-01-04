@@ -9,7 +9,18 @@ chrome.webRequest.onBeforeRequest.addListener(
       autoRedirectionWebsites: ["wikipedia.org", "wikimedia.org"],
       autoRedirection: true
     };
-    var options = JSON.parse(localStorage.getItem('girim', defaultOptions));
+
+    var localOptions = localStorage.getItem('girim');
+
+    // if there is any option locally saved then return them
+    if(localOptions)
+    {
+      var options = JSON.parse(localOptions);      
+    }
+    else
+    {
+      var options =  defaultOptions;
+    }
 
     // so when storage sync, we update our options
     chrome.storage.sync.get(defaultOptions, function(items) {
